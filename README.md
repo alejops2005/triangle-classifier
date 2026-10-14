@@ -68,13 +68,13 @@ Then the expected output should be "Scalene", confirming that it is a valid tria
 
 Given a customer provides the side lengths of a triangle (5, 3, 8)
 
-When the triangle classifier analyzes these points
+When the triangle classifier analyzes these measurements
 
 Then the expected output should be "Invalid", these measurements don't make a valid triangle.
 
 Given a customer provides the side lengths of a triangle (3, 4, 5)
 
-When the triangle classifier analyzes these points
+When the triangle classifier analyzes these measurements
 
 Then the expected output should be "Right Scalene", these measurements make a valid triangle.
 
